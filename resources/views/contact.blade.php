@@ -1,3 +1,7 @@
+@extends('master')
+@section('title', 'Contact')
+@section('content')
+
 <!-- Page content-->
 <section class="py-5">
         <div class="container px-5">
@@ -138,3 +142,5 @@
         </div>
       </section>
     </main>
+
+    @endsection

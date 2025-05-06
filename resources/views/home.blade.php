@@ -1,3 +1,7 @@
+@extends('master')
+@section('title', 'Home')
+@section('content')
+
 <!-- Header-->
 <header class="py-5">
                 <div class="container px-5 pb-5">
@@ -159,3 +163,5 @@
                 </div>
             </section>
         </main>
+
+        @endsection
