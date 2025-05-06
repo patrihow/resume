@@ -19,5 +19,6 @@ Route::get('/home', [ResumeController::class, 'index']);
 Route::get('/about', [ResumeController::class, 'about']);
 Route::get('/resume', [ResumeController::class, 'resume']);
 Route::get('/projets', [ResumeController::class, 'projets']);
+
 Route::get('/contact', [ResumeController::class, 'contact']);
 Route::post('/contact', [ResumeController::class, 'contactForm']);

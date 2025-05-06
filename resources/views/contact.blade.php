@@ -15,6 +15,17 @@
               </div>
               <h1 class="fw-bolder">Prenons contact</h1>
               <p class="lead fw-normal text-muted mb-0">Travaillons ensemble !</p>
+              <div>
+              @isset($data)
+                            <p>
+                                <strong>Name: </strong>{{ $data->name }}<br>
+                                <strong>Email: </strong>{{ $data->email }}<br>
+                                <strong>Phone: </strong>{{ $data->phone }}<br>
+                                <strong>Message: </strong>{{ $data->message }}<br>
+
+                            </p>
+                            @else
+              </div>
             </div>
             <div class="row gx-5 justify-content-center">
               <div class="col-lg-8 col-xl-6">
@@ -25,7 +36,8 @@
                 <!-- To make this form functional, sign up at-->
                 <!-- https://startbootstrap.com/solution/contact-forms-->
                 <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <form id="contactForm" data-sb-form-api-token="API_TOKEN" form method="POST" action="{{ url('/contact') }}">
+                @csrf
                   <!-- Name input-->
                   <div class="form-floating mb-3">
                     <input
@@ -136,6 +148,7 @@
                     </button>
                   </div>
                 </form>
+                @endisset
               </div>
             </div>
           </div>
@@ -144,3 +157,11 @@
     </main>
 
     @endsection
+
+    @section('js')
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+@endsection
