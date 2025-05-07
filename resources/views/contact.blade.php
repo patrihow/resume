@@ -41,6 +41,7 @@
                   <!-- Name input-->
                   <div class="form-floating mb-3">
                     <input
+                    name="name"
                       class="form-control"
                       id="name"
                       type="text"
@@ -58,6 +59,7 @@
                   <!-- Email address input-->
                   <div class="form-floating mb-3">
                     <input
+                    name="email"
                       class="form-control"
                       id="email"
                       type="email"
@@ -81,6 +83,7 @@
                   <!-- Phone number input-->
                   <div class="form-floating mb-3">
                     <input
+                    name="phone"
                       class="form-control"
                       id="phone"
                       type="tel"
@@ -98,6 +101,7 @@
                   <!-- Message input-->
                   <div class="form-floating mb-3">
                     <textarea
+                    name="message"
                       class="form-control"
                       id="message"
                       type="text"

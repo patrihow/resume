@@ -6,7 +6,7 @@
 <div class="container px-5 my-5">
         <div class="text-center mb-5">
           <h1 class="display-5 fw-bolder mb-0">
-            <span class="text-gradient d-inline">Parcours</span>
+            <span class="text-gradient d-inline">À propos</span>
           </h1>
         </div>
         <div class="row gx-5 justify-content-center">
@@ -16,7 +16,7 @@
               <div
                 class="d-flex align-items-center justify-content-between mb-4"
               >
-                <h2 class="text-primary fw-bolder mb-0">Expérience</h2>
+                <h2 class="text-primary fw-bolder mb-0">Parcours</h2>
                 <!-- Download resume button-->
                 <!-- Note: Set the link href target to a PDF file within your project-->
                 <a class="btn btn-primary px-4 py-3" href="#!">
@@ -28,7 +28,7 @@
               <div class="card shadow border-0 rounded-4 mb-5">
                 <div class="card-body p-5">
                   <div class="row align-items-center gx-5">
-                    <div class="col text-center text-lg-start mb-4 mb-lg-0">
+                    <!-- <div class="col text-center text-lg-start mb-4 mb-lg-0">
                       <div class="bg-light p-4 rounded-4">
                         <div class="text-primary fw-bolder mb-2">
                             Mars 2023 – Décembre 2023
@@ -37,18 +37,18 @@
                         <div class="small text-muted">QUÉtAL – Chambre de Commerce Québec & Amérique Latine</div>
                         <div class="small text-muted">Montréal, Québec, Canada</div>
                       </div>
-                    </div>
+                    </div> -->
                     <div class="col-lg-8">
                       <div>
-                        🔸 Amélioration de l’interface et de l’architecture du site web, augmentant le trafic de 22 %.
+                      Je suis designer et développeuse web en formation, spécialisée dans la création d’interfaces épurées, adaptatives et accessibles à toutes et tous.
                         </div><br><div>
-🔸 Livraison ponctuelle de campagnes de marketing numérique de haute qualité, entraînant une hausse de 30 % de la participation aux événements.
+                        Actuellement étudiante en Conception et programmation de sites Web au Collège de Maisonneuve, je développe des compétences solides en intégration front-end, en développement de sites avec CMS et en conception de systèmes design responsifs. J’aime transformer des maquettes en sites fonctionnels, intuitifs et faciles à maintenir à l’aide de HTML, CSS, JavaScript et WordPress.
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              
+
             </section>
             <!-- Education Section-->
             <section>
@@ -80,8 +80,8 @@
                   </div>
                 </div>
               </div>
-             
-             
+
+
             </section>
             <!-- Divider-->
             <div class="pb-5"></div>

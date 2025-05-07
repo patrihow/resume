@@ -1,3 +1,7 @@
+@extends('master')
+@section('title', 'Resume')
+@section('content')
+
 <!-- Page Content-->
 <div class="container px-5 my-5">
         <div class="text-center mb-5">
@@ -213,3 +217,5 @@
         </div>
       </div>
     </main>
+
+    @endsection

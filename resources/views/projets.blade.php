@@ -43,7 +43,7 @@
                 <div class="container px-5 my-5">
                     <div class="text-center">
                         <h2 class="display-4 fw-bolder mb-4">Construisons quelque chose ensemble</h2>
-                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="contact.html">Me contacter</a>
+                        <a class="btn btn-outline-light btn-lg px-5 py-3 fs-6 fw-bolder" href="/contact">Me contacter</a>
                     </div>
                 </div>
             </section>
